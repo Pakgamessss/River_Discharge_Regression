@@ -111,8 +111,8 @@ Each file is named according to the dataset and scenario defined in the configur
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/rasoulameri/AOA_Regression_Framework.git
-cd AOA_Regression_Framework
+git clone https://github.com/rasoulameri/River_Discharge_Regression.git
+cd River_Discharge_Regression
 pip install -r requirements.txt
 ```
 
