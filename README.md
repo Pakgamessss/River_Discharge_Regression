@@ -156,7 +156,7 @@ The raw data used in this project (river discharge samples) are provided for dem
 ## 🏗 Repository Structure
 
 ```
-AOA_Regression_Framework/
+River_Discharge_Regression/
 │
 ├── config/
 │   └── setting.yaml                # Main configuration
