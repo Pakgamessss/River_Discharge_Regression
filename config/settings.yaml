@@ -1,0 +1,41 @@
+
+data:
+  name: "station1"
+  file_path: "./data/station1.xlsx"
+  sheet_range: [4, 5]               # Sheets 1 → 4
+  train_end: 2577                   # Last row index for training
+  valid_end: 3105                   # Last row index for validation
+  target_col: -1                    # Last column is target
+
+
+scaler:
+  method: "minmax"                  
+
+
+models:
+  gbr:
+    random_state: 1
+  svr:
+    kernel: "rbf"
+  knn:
+    n_neighbors: 5
+  voting_regressor:
+    use_base_models: ["gbr", "svr", "knn"]
+
+
+optimizer:
+  algorithm: "AO"                   # Options: [AO, HGS, HHO]
+  objective: "r2_score"             # Optimization target metric
+  population_size: 100
+  epochs: 100
+  bounds:
+    lower: [1, 1, 1, 10, 0.001, 1, 2, 0.01, 0.01, 2]
+    upper: [100, 100, 100, 200, 1, 10, 15, 500, 1, 15]
+
+
+output:
+  results_dir: "./results/"
+  metrics_dir: "./results/metrics/"
+  predictions_dir: "./results/predictions/"
+  save_format: ["xlsx", "png"]
+  verbose: true
